@@ -1,9 +1,8 @@
-def dodaj();
-print ("wprowadz dwie liczby a zostana one dodane")
-    a= int(input())
-    b=int(input())
-    print(a+b)
-    
- dodaj()
+def dodaj(a, b):
+    wynik = a + b 
+    return wynik
+   a=int(input()) 
+    b=int(input()) 
+ print(dodaj(a, b))
     
     
