@@ -1,13 +1,17 @@
-def get_info():
+def get_info();
 print("WItaj to jest kalkulator")
 
-def dodaj(a, b):
+def dodaj(a, b);
     wynik = a + b 
     return wynik
-   a=int(input()) 
-    b=int(input()) 
- print(a+b)
+    
+    def odejmij(a,b);
+    return a-b
+    
+get_info()
+ a=int(input()) 
+ b=int(input()) 
+ print(dodaj(a,b))
  
+ print("Koniec programu")
  
- get_info()   
-    dodaj()
